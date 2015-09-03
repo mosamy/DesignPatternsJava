@@ -41,6 +41,7 @@ public class OvalFrame extends javax.swing.JFrame implements IObserver
        repaint();
         
     }
+    
 public  void  paint(  Graphics  display  )  
           {
             // clear display first
