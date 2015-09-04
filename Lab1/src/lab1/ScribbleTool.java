@@ -2,7 +2,7 @@ package lab1;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.event.MouseEvent;
-import lab1_new.*;
+
 
 @SuppressWarnings("unused")
 public class ScribbleTool implements Tool

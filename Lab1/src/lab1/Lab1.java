@@ -15,19 +15,20 @@ public class Lab1 extends javax.swing.JFrame
     private JButton ovalb      = null;
     private JButton eraseb     = null;
 
-    protected ScribbleCanvas canvas; 
+    protected static ScribbleCanvas canvas;
+	private static Lab1 drawframe; 
     protected EventListener listener;
     
     // constants representing tools  
-    public static final int SCRIBBLE_TOOL =0;
-    public static final int LINE_TOOL =1;
-    public static final int RECTANGLE_TOOL =2;
-    public static final int OVAL_TOOL =3;
-    public static final int ERASER_TOOL =4;
+    public static final ToolType SCRIBBLE_TOOL  = ToolType.Scribble;
+    public static final ToolType LINE_TOOL =ToolType.Line;
+    public static final ToolType RECTANGLE_TOOL =ToolType.Rectangle;
+    public static final ToolType OVAL_TOOL =ToolType.Oval;
+    public static final ToolType ERASER_TOOL =ToolType.Eraser;
     
     // the currently selected tool
-    protected int currentTool = SCRIBBLE_TOOL;
-  
+    //protected int currentTool = SCRIBBLE_TOOL;
+    protected ToolType currentTool = ToolType.Scribble;
 	public Lab1 ()
 	{
 		setTitle("Drawing Application.");    
@@ -309,7 +310,7 @@ public class Lab1 extends javax.swing.JFrame
     }
 	void rectangleb_actionPerformed(java.awt.event.ActionEvent event) {
 	    System.out.println("rectangle");
-	    setCurrentTool(RECTANGLE_TOOL);
+	   setCurrentTool(RECTANGLE_TOOL);
     }
 	void ovalb_actionPerformed(java.awt.event.ActionEvent event) {
 	    System.out.println("oval");
@@ -317,13 +318,13 @@ public class Lab1 extends javax.swing.JFrame
     }
 	void eraseb_actionPerformed(java.awt.event.ActionEvent event) {
 	    System.out.println("erase.");
-	    setCurrentTool(ERASER_TOOL);
+	   setCurrentTool(ERASER_TOOL);
     }
 
-    public void setCurrentTool(int tool){
-        currentTool=tool;
+    public void setCurrentTool(ToolType scribbleTool){
+        currentTool=scribbleTool;
     }
-    public int getCurrentTool(){
+    public ToolType getCurrentTool(){
         return currentTool;
     }
 }

@@ -22,13 +22,13 @@ public class ScribbleCanvasListener
   public void mousePressed(MouseEvent e) {
     Point p = e.getPoint(); 
     switch (drawframe.getCurrentTool()){
-        case 0: // handle mouse pressed for scribble tool
+        case Scribble: // handle mouse pressed for scribble tool
 //            canvas.mouseButtonDown = true;
 //            canvas.x = p.x; 
 //            canvas.y = p.y;
         	st.mousePressed(e);
             break;
-        case 1:  // handle mouse pressed for line tool
+        case Line:  // handle mouse pressed for line tool
             canvas.mouseButtonDown = true;
             xStart = canvas.x = p.x; 
             yStart = canvas.y = p.y; 
@@ -37,7 +37,7 @@ public class ScribbleCanvasListener
             onscreen.setColor(Color.lightGray); 
             onscreen.drawLine(xStart, yStart, xStart, yStart); 
             break;
-        case 2:// handle mouse pressed for rectangle tool
+        case Rectangle:// handle mouse pressed for rectangle tool
             canvas.mouseButtonDown = true;
             xStart = canvas.x = p.x; 
             yStart = canvas.y = p.y; 
@@ -46,7 +46,7 @@ public class ScribbleCanvasListener
             onscreen.setColor(Color.lightGray); 
             onscreen.drawRect(xStart, yStart, 1, 1); 
             break;
-        case 3:// handle mouse pressed for oval tool
+        case Oval:// handle mouse pressed for oval tool
             canvas.mouseButtonDown = true;
             xStart = canvas.x = p.x; 
             yStart = canvas.y = p.y; 
@@ -56,7 +56,7 @@ public class ScribbleCanvasListener
             
             onscreen.drawOval(xStart, yStart, 1, 1); 
             break;
-        case 4:// handle mouse pressed for eraser tool
+        case Eraser:// handle mouse pressed for eraser tool
             canvas.mouseButtonDown = true;
             canvas.x = p.x; 
             canvas.y = p.y; 
@@ -69,32 +69,32 @@ public class ScribbleCanvasListener
   public void mouseReleased(MouseEvent e) {
     Point p = e.getPoint(); 
     switch (drawframe.getCurrentTool()){
-        case 0: // handle mouse released for scribble tool
+        case Scribble: // handle mouse released for scribble tool
             //canvas.mouseButtonDown = false;
         	st.mouseReleased(e);
             break;
-        case 1:// handle mouse released for line tool
+        case Line:// handle mouse released for line tool
             canvas.mouseButtonDown = false; 
             onscreen.setPaintMode();
             offscreen = canvas.getOffScreenGraphics(); 
             offscreen.drawLine(xStart, yStart, p.x, p.y); 
             canvas.repaint(); 
             break;
-        case 2:// handle mouse released for rectangle tool
+        case Rectangle:// handle mouse released for rectangle tool
             canvas.mouseButtonDown = false; 
             onscreen.setPaintMode();
             offscreen = canvas.getOffScreenGraphics(); 
             offscreen.drawRect(xStart, yStart, p.x-xStart+1, p.y-yStart+1); 
             canvas.repaint(); 
             break;
-        case 3:// handle mouse released for oval tool
+        case Oval:// handle mouse released for oval tool
             canvas.mouseButtonDown = false; 
             onscreen.setPaintMode();
             offscreen = canvas.getOffScreenGraphics(); 
             offscreen.drawOval(xStart, yStart, p.x-xStart+1, p.y-yStart+1); 
             canvas.repaint(); 
             break;
-        case 4:// handle mouse released for eraser tool
+        case Eraser:// handle mouse released for eraser tool
             canvas.mouseButtonDown = false; 
             canvas.setPenColor(canvas.penColor); 
             break;
@@ -104,7 +104,7 @@ public class ScribbleCanvasListener
   public void mouseDragged(MouseEvent e) {
     Point p = e.getPoint(); 
     switch (drawframe.getCurrentTool()){
-        case 0: // handle mouse dragged for scribble tool
+        case Scribble: // handle mouse dragged for scribble tool
             /*if (canvas.mouseButtonDown) {
             canvas.getOffScreenGraphics().drawLine(canvas.x, canvas.y, p.x, p.y); 
             int xs = Math.min(canvas.x, p.x); 
@@ -117,7 +117,7 @@ public class ScribbleCanvasListener
             }       */
         	st.mouseDragged(e);
             break;
-        case 1:// handle mouse dragged for line tool
+        case Line:// handle mouse dragged for line tool
             if (canvas.mouseButtonDown) {
                 onscreen.drawLine(xStart, yStart, canvas.x, canvas.y); 
                 onscreen.drawLine(xStart, yStart, p.x, p.y);
@@ -125,7 +125,7 @@ public class ScribbleCanvasListener
             canvas.x = p.x; 
             canvas.y = p.y; 
            break;
-        case 2:// handle mouse dragged for rectangle tool
+        case Rectangle:// handle mouse dragged for rectangle tool
             if (canvas.mouseButtonDown) {
                 onscreen.drawRect(xStart, yStart, canvas.x - xStart + 1, canvas.y - yStart + 1);  
                 onscreen.drawRect(xStart, yStart, p.x - xStart + 1, p.y - yStart + 1); 
@@ -133,7 +133,7 @@ public class ScribbleCanvasListener
             canvas.x = p.x; 
             canvas.y = p.y; 
             break;
-        case 3:// handle mouse dragged for oval tool
+        case Oval:// handle mouse dragged for oval tool
             if (canvas.mouseButtonDown) {
                 onscreen.drawOval(xStart, yStart, canvas.x - xStart + 1, canvas.y - yStart + 1); 
                 onscreen.drawOval(xStart, yStart, p.x - xStart + 1, p.y - yStart + 1);  
@@ -141,7 +141,7 @@ public class ScribbleCanvasListener
             canvas.x = p.x; 
             canvas.y = p.y; 
             break;
-        case 4:// handle mouse dragged for eraser tool
+        case Eraser:// handle mouse dragged for eraser tool
             if (canvas.mouseButtonDown) {
                 int xs, ys, dx, dy; 
                 xs = Math.min(canvas.x, p.x) - 2;
