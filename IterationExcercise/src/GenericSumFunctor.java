@@ -1,17 +1,20 @@
 
-public class GenericSumFunctor<T>  implements IFunctor<T>{
 
-	T sum;
+public class GenericSumFunctor<T extends Number>  implements IFunctor<T> {
+
+	double sum;
 	@Override
-	public void compute(T element) {
-		//sum =  sum + element;
+	public void compute(T  element) {
+		
+		sum  += element.doubleValue();
 		
 	}
 
 	@Override
 	public T getValue() {
 		// TODO Auto-generated method stub
-		return sum;
+		return null;
+		//return sum;
 	}
 	
 }
