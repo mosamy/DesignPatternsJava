@@ -1,5 +1,6 @@
 import java.util.Iterator;
 import java.util.List;
+import java.util.OptionalDouble;
 import java.util.Vector;
 import java.util.function.Predicate;
 import java.util.stream.Collector;
@@ -15,7 +16,7 @@ public class IterationExcerciseMain {
 		
 		int sum = 0;
 		int count = 0;
-		double average= 0.0;
+		double average;
 		Predicate<Integer> selectGreaterthan2 = x -> x >2 ;
 		//selectPredicate x >2, x > 6 , x <8
 		Predicate<Integer> selectGreaterthan6 = x -> x >6 ;
@@ -107,57 +108,46 @@ public class IterationExcerciseMain {
 		 average = sum/count;
 		System.out.println("The average is " + average + "");
 		System.out.println("The sum is " + sum + "");*/
+		OptionalDouble avg ;
 		
-		
-		List<Integer> numbersgreaterthan2 = numbers.stream().filter(x -> x >2).collect(Collectors.toList());
-		
-		//iterate external
-		Iterator<Integer> extIT = numbersgreaterthan2.iterator();
 		sum =0;
-		count = 0;
-		while (extIT.hasNext()) {
-			count++;
-			sum += extIT.next();
-			
-		}
-		
-		 average = sum/count;
-		System.out.println("x > 2");
-		System.out.println("The average is " + average + "");
-		System.out.println("The sum is " + sum + "");
+		count = 0; 
+	
+		sum = numbers.stream().filter(x -> x >2).mapToInt( Integer::intValue).sum();
+		avg = numbers.stream().filter(x -> x > 2).mapToInt( Integer::intValue).average();
+				
+				
+				 average = sum/count;
+				System.out.println("x > 2");
+				System.out.println("The average is " + avg + "");
+				System.out.println("The sum is " + sum + "");
 
-		List<Integer> numbersgreaterthan6 = numbers.stream().filter(x -> x >2).collect(Collectors.toList());
-		
-		//iterate external
-		Iterator<Integer> extIT1 = numbersgreaterthan6.iterator();
+	
 		sum =0;
-		count = 0;
-		while (extIT1.hasNext()) {
-			count++;
-			sum += extIT1.next();
-			
-		}
+		count = 0; 
+	
+		sum = numbers.stream().filter(x -> x > 6).mapToInt( Integer::intValue).sum();
+		avg = numbers.stream().filter(x -> x > 6).mapToInt( Integer::intValue).average();
+				
+				
+				 average = sum/count;
+				System.out.println("x > 6");
+				System.out.println("The average is " + avg + "");
+				System.out.println("The sum is " + sum + "");
 		
-		 average = sum/count;
-		System.out.println("x > 6");
-		System.out.println("The average is " + average + "");
-		System.out.println("The sum is " + sum + "");
 		
+		//List<Integer> numberslessthan8 = numbers.stream().filter(x -> x <8).collect(Collectors.toList());
 		
-		List<Integer> numberslessthan8 = numbers.stream().filter(x -> x <8).collect(Collectors.toList());
-		//iterate external
-				Iterator<Integer> extIT3 = numberslessthan8.iterator();
-				sum =0;
-				count = 0;
-				while (extIT3.hasNext()) {
-					count++;
-					sum += extIT3.next();
-					
-				}
+		sum =0;
+		count = 0; 
+	
+		sum = numbers.stream().filter(x -> x <8).mapToInt( Integer::intValue).sum();
+		avg = numbers.stream().filter(x -> x <8).mapToInt( Integer::intValue).average();
+				
 				
 				 average = sum/count;
 				System.out.println("x < 8");
-				System.out.println("The average is " + average + "");
+				System.out.println("The average is " + avg + "");
 				System.out.println("The sum is " + sum + "");
 		
 	}
