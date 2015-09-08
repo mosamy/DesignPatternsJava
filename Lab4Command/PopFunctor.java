@@ -1,10 +1,14 @@
 
 
-public class PopFunctor implements IFunctor{
+public class PopFunctor implements ICommand{
 
+	private VStack vstack;
+	public  PopFunctor(VStack v) {
+		
+	}
 	@Override
-	public void execute(VStack v, int val) {
-		v.pop();
+	public void execute() {
+		vstack.pop();
 	}
 
 }

@@ -8,3 +8,5 @@
 /IFunctor.class
 /PushFunctor.class
 /PopFunctor.class
+/ICommand.class
+/PushCommand.class
