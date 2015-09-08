@@ -6,7 +6,7 @@ public class PushCommand implements ICommand{
 	private int inttoPush =0 ;
 	private VStack vstack;
 	
-	public void  PushCommand(VStack v, int x) {
+	public PushCommand(VStack v, int x) {
 		inttoPush = x;
 		vstack = v;
 		
