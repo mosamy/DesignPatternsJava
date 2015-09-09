@@ -3,9 +3,9 @@ import java.awt.*;
 
 public class PushDialog extends javax.swing.JDialog
 {
-    Lab4 parentframe;
+    IPushString parentframe;
     
-	public PushDialog(Lab4 parent)
+	public PushDialog(IPushString parent)
 	{
 		parentframe = parent; // remember the parent frame
 

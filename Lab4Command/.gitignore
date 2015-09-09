@@ -10,3 +10,8 @@
 /PopFunctor.class
 /ICommand.class
 /PushCommand.class
+/CommandManager.class
+/IPushValue.class
+/IPushString.class
+/PopCommand.class
+/CommandType.class

@@ -9,10 +9,13 @@ import java.util.*;
  *
  * ************************************/
 
-public class Lab4 extends javax.swing.JFrame
+public class Lab4 extends javax.swing.JFrame 
 {
-    private VStack stack = new VStack();  // the stack object
-    private String pushstring="  "; // the string to push on the stack
+	
+    private VStack stack = new VStack();  
+    private CommandManager commandManager = new CommandManager(stack);
+    // the stack object
+    //private String pushstring="  "; // the string to push on the stack
     
 	public Lab4 ()    
 	{
@@ -139,11 +142,22 @@ public class Lab4 extends javax.swing.JFrame
 
 	void JButtonPush_actionPerformed(java.awt.event.ActionEvent event)
 	{
-	    pushstring= "";
+	    
+	  /*  pushstring= "";
 	    PushDialog  dialog = new PushDialog(this); //ask the user what to push
 	    dialog.setVisible(true);
 	    if (!pushstring.equals("")) // after the dialog is closed, 
-		   stack.push(pushstring);  // pushstring contains the user input
+		   //stack.push(pushstring);  // pushstring contains the user input
+	    {
+	    	PushCommand pc = new PushCommand(stack, pushstring);
+	    	pc.execute();
+	    }*/
+		commandManager.Execute(CommandType.Push);
+		//commandManager.Execute(new PushCommand(stack));
+		/*CommandManager cm = new  CommandManager();
+		cm.Execute(new PushCommand(stack));
+		PushCommand pc = new PushCommand(stack);
+    	pc.execute()*/;
 		JList1.setListData(stack.getStackVector());  // refresh the JList
 		this.repaint();
 			 
@@ -151,7 +165,10 @@ public class Lab4 extends javax.swing.JFrame
 
 	void JButtonPop_actionPerformed(java.awt.event.ActionEvent event)
 	{
-		stack.pop();
+		//stack.pop();
+		/*PopCommand pc = new PopCommand(stack);
+		pc.execute();*/
+		commandManager.Execute(CommandType.Pop);
 		JList1.setListData(stack.getStackVector()); // refresh the JList
 		this.repaint();
 			 
@@ -160,18 +177,21 @@ public class Lab4 extends javax.swing.JFrame
 	void JButtonUndo_actionPerformed(java.awt.event.ActionEvent event)
 	{
 		// to do: code goes here.
+		commandManager.Execute(CommandType.Undo);
+		JList1.setListData(stack.getStackVector()); // refresh the JList
+		this.repaint();
 			 
 	}
 
 	void JButtonRedo_actionPerformed(java.awt.event.ActionEvent event)
 	{
-		// to do: code goes here.
+		commandManager.Execute(CommandType.Redo);
+		JList1.setListData(stack.getStackVector()); // refresh the JList
+		this.repaint();
 			 
 	}
 	
-	public void setPushString (String string){
-	    pushstring = string;
-	}
+	
 	
 
 }
