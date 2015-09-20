@@ -15,7 +15,10 @@ public class Merge {
 		List<Double> list5 = Arrays.asList(2.3, 4.5);
 		List<Number> list6 = Arrays.asList(2, 5);
 		List<String> list7 = Arrays.asList("A", "XYZ", "AXTU");
+		Merge m = new Merge();
 		
+		List<Number> listprint = m.MergeListGeneric(list6, list6);
+		//ist<Number> listprint2 = m.MergeListGeneric(list6, list5);
 	}
 	
 	public List<Integer> MergeList(List<Integer> L1, List<Integer> L2)
@@ -27,13 +30,14 @@ public class Merge {
 		return mergedstream.collect(Collectors.toList());
 	}
 	
-	public List<?> MergeListGeneric(List<?> L1, List<?> L2)
+	public  <T extends Number> List<T> MergeListGeneric(List<T> L1, List<T> L2)
 	{
 		@SuppressWarnings("rawtypes")
-		Stream merge = Stream.concat(L1.stream(), L2.stream()) ;
-		Function<?, ?> sortByValue = x -> x.hashCode();
-		Stream<Object> mergedstream = merge.sorted(Comparator.comparing(sortByValue));
-		return mergedstream.collect(Collectors.toList());
+		Stream<T> merge = Stream.concat(L1.stream(), L2.stream()) ;
+		//Function<?, ?> sortByValue = x -> x.hashCode();
+		//Stream<Object> mergedstream = merge.sorted(Comparator.comparing(sortByValue));
+		return merge.collect(Collectors.toList());
+		//return merge.collect(Collectors.toList());
 	}
 
 }

@@ -1,0 +1,119 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype Arial;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Arial Unicode MS;}
+{\f3\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;
+\red255\green255\blue255;}
+{\stylesheet
+{\s6\fi-430\li720\sbasedon28\snext28 Contents 1;}
+{\s7\fi-430\li1440\sbasedon28\snext28 Contents 2;}
+{\s1\fi-430\li720 Arrowhead List;}
+{\s27\fi-430\li720\sbasedon28 Lower Roman List;}
+{\s30\tx431\sbasedon20\snext28 Numbered Heading 1;}
+{\s8\fi-430\li2160\sbasedon28\snext28 Contents 3;}
+{\s12\fi-430\li720 Diamond List;}
+{\s9\fi-430\li2880\sbasedon28\snext28 Contents 4;}
+{\s4\fi-430\li720 Bullet List;}
+{\s31\tx431\sbasedon21\snext28 Numbered Heading 2;}
+{\s32\tx431\sbasedon22\snext28 Numbered Heading 3;}
+{\s33\fi-430\li720 Numbered List;}
+{\s15\sbasedon28 Endnote Text;}
+{\*\cs14\fs20\super Endnote Reference;}
+{\s5\tx1584\sbasedon30\snext28 Chapter Heading;}
+{\s36\fi-430\li720 Square List;}
+{\s11\fi-430\li720 Dashed List;}
+{\s22\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 3;}
+{\s38\fi-430\li720 Tick List;}
+{\s24\fi-430\li720 Heart List;}
+{\s41\fi-430\li720\sbasedon33 Upper Roman List;}
+{\s29\sb99\sa99\f2\fs24\lang1033\sbasedon28 Normal (Web);}
+{\s16\fi-288\li288\fs20\sbasedon28 Footnote;}
+{\s19\fi-430\li720 Hand List;}
+{\s18\fs20\sbasedon28 Footnote Text;}
+{\s20\sb440\sa60\f1\fs34\b\sbasedon28\snext28 Heading 1;}
+{\s21\sb440\sa60\f1\fs28\b\sbasedon28\snext28 Heading 2;}
+{\s10\qc\sb240\sa119\f1\fs32\b\sbasedon28\snext28 Contents Header;}
+{\s23\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 4;}
+{\s28\f0\fs20\lang1033 Normal;}
+{\s26\fi-430\li720\sbasedon33 Lower Case List;}
+{\s2\li1440\ri1440\sa119\sbasedon28 Block Text;}
+{\s40\fi-430\li720\sbasedon33 Upper Case List;}
+{\s34\f3\sbasedon28 Plain Text;}
+{\s35\tx1584\sbasedon30\snext28 Section Heading;}
+{\s25\fi-430\li720 Implies List;}
+{\s3\fi-430\li720 Box List;}
+{\s37\fi-430\li720 Star List;}
+{\*\cs17\fs20\super Footnote Reference;}
+{\s39\fi-430\li720 Triangle List;}
+{\s13\fi-288\li288\sbasedon28 Endnote;}}
+{\*\listtable
+{\list\listtemplateid1798\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1001}
+{\list\listtemplateid1799\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1129}
+{\list\listtemplateid1800\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1217}
+{\list\listtemplateid1801\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1303}
+{\list\listtemplateid1802\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1740}
+{\list\listtemplateid1803\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1349}
+{\list\listtemplateid1804\listsimple{\listlevel\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1416}}
+{\*\listoverridetable
+{\listoverride\listoverridecount0\listid1001\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls1}
+{\listoverride\listoverridecount0\listid1129\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls2}
+{\listoverride\listoverridecount0\listid1217\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls3}
+{\listoverride\listoverridecount0\listid1303\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls4}
+{\listoverride\listoverridecount0\listid1740\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls5}
+{\listoverride\listoverridecount0\listid1349\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls6}
+{\listoverride\listoverridecount0\listid1416\levelnfc23\levelstartat1\levelspace0\levelfollow0\fi-360\li720{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls7}}
+
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\*\rdf}{\info\uc1}\deftab720\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\qc\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch CS 525 ASD --- Spring 2005}{\s29\f0\fs20\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch Maharishi University of Management\line }{\s29\f0\fs36\b\lang1033{\*\listtag0}Computer Science Department}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs26\b\lang1033{\*\listtag0}\abinodiroverride\ltrch Daily Journal}{\s29\f0\fs26\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs26\b\lang1033{\*\listtag0}\abinodiroverride\ltrch Mohamed Samy -984577}{\s29\f0\fs26\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch _____________________________________________________________}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa119\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1001\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Date}{\s28\f0\fs20\lang1033{\*\listtag0}: Monday, Sep 14}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1001\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}: Final exam today, I wish I had planned my time better would have focused more on diagrams and notes.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1001\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}: TM helped take the edge off the exam.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1001\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}: I was in bed by 11:00, I am was writing the code I could have written in the exam, to learn.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\sl240\slmult1\itap0{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s29\sl240\slmult1\itap0{\s29\f0\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\s29\f0\fs20\b\lang0{\*\listtag0}Date}{\s29\f0\fs20\lang1033{\*\listtag0}: Tuesday, September 15}{\s29\f0\fs20\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1129\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls2\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}: Exam reviewed, more talk on frameworks. Was informative.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1129\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls2\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}: TM helped me stay calm.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1129\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls2\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}: I was in bed by 10:30}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\sl240\slmult1\itap0{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Date}{\s28\f0\fs20\lang1033{\*\listtag0}: Wednesday, September 16}{\s28\f0\fs20\b\lang0{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1217\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}: Groups being formed today. Work on our framework}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1217\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}: TM was good for maintaining focus. }{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1217\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}: I was in bed by 10:00. }{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Date}{\s28\f0\fs20\lang1033{\*\listtag0}: Thursday, September 17}{\s28\f0\fs20\b\lang0{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1303\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}: More UML diagrams}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1303\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}:felt a bit more pressure today and TM seemed very light, not as deep.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1303\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}: I was in bed by 10:00, night technique helped me unwind.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Date}{\s28\f0\fs20\lang1033{\*\listtag0}: Friday, September 18}{\s28\f0\fs20\b\lang0{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1740\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls5\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}: Worked more on my framework idea, with the patterns, elaborated on the design. We created a Github account for submission.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1740\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls5\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}: TM calm, silent.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1740\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls5\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}: I was in bed by 10:00}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sb99\sa99\s28\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Date}{\s28\f0\fs20\lang1033{\*\listtag0}: Saturday, September 19}{\s28\f0\fs20\b\lang0{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1349\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls6\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}: Work on sequence diagrams, trying to coordinate with the team}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1349\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls6\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}: TM helped me focus.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1349\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls6\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}: I was in bed by 9:00, tried today}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\sl240\slmult1\itap0{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\sl240\slmult1\itap0{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\sl240\slmult1\itap0{\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Date}{\f0\fs20\lang1033{\*\listtag0}: Sunday, September 6}{\f0\fs20\b\lang0{\*\listtag0}\par}
+{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1416\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls7\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Class}{\s28\f0\fs20\lang1033{\*\listtag0}:We met today and had a heated discussion on the design of the framework}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1416\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls7\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang1033{\*\listtag0}\abinodiroverride\ltrch TM Program}{\s28\f0\fs20\lang1033{\*\listtag0}: TM in the morning, helped me stay clear.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-360\li720\sb99\sa99\bullet 	}\pard\plain{\ltrpar\ql\fi-360\li720\sb99\sa99\s28{\*\abilist\abilistid1416\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart1\pnlvlblt{\pntxtb\bullet}}\ls7\ilvl0\sl240\slmult1\itap0\tx720{\s28\f0\fs20\b\lang0{\*\listtag0}\abinodiroverride\ltrch Schedule}{\s28\f0\fs20\lang1033{\*\listtag0}:Woke up 7.30 a.m. not in bed yet.}{\s28\f0\fs20\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\sl240\slmult1\itap0{\s28\f0\fs20\lang1033{\*\listtag0}\par}}

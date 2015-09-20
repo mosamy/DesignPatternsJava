@@ -12,6 +12,15 @@ import java.util.*;
 public class Lab4 extends javax.swing.JFrame 
 {
 	
+	//
+	javax.swing.JButton JButtonPush = new javax.swing.JButton();
+	javax.swing.JButton JButtonPop = new javax.swing.JButton();
+	javax.swing.JButton JButtonUndo = new javax.swing.JButton();
+	javax.swing.JButton JButtonRedo = new javax.swing.JButton();
+	javax.swing.JButton JButtonClear = new javax.swing.JButton();
+	javax.swing.JList JList1 = new javax.swing.JList();
+	//
+	
     private VStack stack = new VStack();  
     private CommandManager commandManager = new CommandManager(stack);
     // the stack object
@@ -40,7 +49,12 @@ public class Lab4 extends javax.swing.JFrame
 		JButtonRedo.setText("Redo");
 		getContentPane().add(JButtonRedo);
 		JButtonRedo.setBounds(38,190,110,30);
-
+		
+		
+		JButtonClear.setText("Clear");
+		getContentPane().add(JButtonClear);
+		JButtonClear.setBounds(38,240,110,30);
+		//JButtonClear
 		JScrollPane scrollPane = new JScrollPane(JList1);
 		JList1.setListData(stack.getStackVector());
 		scrollPane.setBounds(218,38,160,200);
@@ -81,13 +95,7 @@ public class Lab4 extends javax.swing.JFrame
 	}
 
 
-	//
-	javax.swing.JButton JButtonPush = new javax.swing.JButton();
-	javax.swing.JButton JButtonPop = new javax.swing.JButton();
-	javax.swing.JButton JButtonUndo = new javax.swing.JButton();
-	javax.swing.JButton JButtonRedo = new javax.swing.JButton();
-	javax.swing.JList JList1 = new javax.swing.JList();
-	//
+
 
 	void exitApplication()
 	{
@@ -136,28 +144,25 @@ public class Lab4 extends javax.swing.JFrame
 				JButtonUndo_actionPerformed(event);
 			else if (object == JButtonRedo)
 				JButtonRedo_actionPerformed(event);
+			else if (object == JButtonClear)
+				JButtonClear_actionPerformed(event);
+			
+		}
+
+		private void JButtonClear_actionPerformed(ActionEvent event) {
+			commandManager.Execute(CommandType.Clear);
+			
+			JList1.setListData(stack.getStackVector());  // refresh the JList
+			this.repaint();
 			
 		}
 	}
 
 	void JButtonPush_actionPerformed(java.awt.event.ActionEvent event)
 	{
-	    
-	  /*  pushstring= "";
-	    PushDialog  dialog = new PushDialog(this); //ask the user what to push
-	    dialog.setVisible(true);
-	    if (!pushstring.equals("")) // after the dialog is closed, 
-		   //stack.push(pushstring);  // pushstring contains the user input
-	    {
-	    	PushCommand pc = new PushCommand(stack, pushstring);
-	    	pc.execute();
-	    }*/
+	
 		commandManager.Execute(CommandType.Push);
-		//commandManager.Execute(new PushCommand(stack));
-		/*CommandManager cm = new  CommandManager();
-		cm.Execute(new PushCommand(stack));
-		PushCommand pc = new PushCommand(stack);
-    	pc.execute()*/;
+		
 		JList1.setListData(stack.getStackVector());  // refresh the JList
 		this.repaint();
 			 
@@ -165,9 +170,7 @@ public class Lab4 extends javax.swing.JFrame
 
 	void JButtonPop_actionPerformed(java.awt.event.ActionEvent event)
 	{
-		//stack.pop();
-		/*PopCommand pc = new PopCommand(stack);
-		pc.execute();*/
+		
 		commandManager.Execute(CommandType.Pop);
 		JList1.setListData(stack.getStackVector()); // refresh the JList
 		this.repaint();

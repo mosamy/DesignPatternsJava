@@ -1,6 +1,25 @@
-public class Car{
-    public int changeSpeed(int speed){
-	    if (speed == 0) {
+public class Car
+{
+	TransmissionState t;
+	
+	public Car()
+	{
+		t = new TransmissionState(0);
+	}
+    public int changeSpeed(int speed)
+    {
+    	if (speed == 0) return 0;
+    	return  t.changegear(speed) ;
+    	  
+    }
+}
+    
+
+
+    
+
+/*
+ * if (speed == 0) {
 	        return 0;
 	    } else {
 	        if (speed > 0 && speed < 10) {
@@ -24,6 +43,7 @@ public class Car{
 	        }
 	    }
 	    return 0;
-    }
-}
-    
+ * 
+ * 
+ * */
+ 

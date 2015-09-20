@@ -67,7 +67,7 @@ public class CommandManager {
 			break;
 			
 		case Redo:
-			//commandHistroy.pop().
+			
 			commandhistorypointer--;
 				
 				if (commandhistorypointer >= 0){
@@ -81,6 +81,11 @@ public class CommandManager {
 				
 				
 				break;
+				
+		case Clear:
+			
+			break;
+			
 		default:
 			break;
 		}

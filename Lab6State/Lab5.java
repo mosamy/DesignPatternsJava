@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Lab5 extends javax.swing.JFrame  
 {
-    Car mycar = new Car();
+   Car mycar = new Car();
     
 	public Lab5()
 	{
